@@ -1,0 +1,145 @@
+*{
+  background: #D9D9D9;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.container {
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .container .form {
+    width: 450px;
+    padding: 45px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    background: #76BAB2;
+    margin-top: 60px;
+  }
+  .container .form .Logo {
+    background: url(Logo);
+    width: 115px;
+    height: 115px;
+    margin-left: 35%;
+    left: 556px;
+    top: 189px;
+  }
+  .container .form .title {
+    background-color: #76BAB2;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -2%;
+    line-height: 44px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .container .form .welcomeTxt {
+    background-color: #76BAB2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 8px;
+  }
+  .container .form .inputContainer h3 {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0%;
+    color: #344054;
+    background-color: #76BAB2;
+  }
+  .container .form .inputContainer input {
+    display: block;
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 14px 10px 14px;
+    border-radius: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #D9D9D9;
+    border: 1px solid #76BAB2;
+  }
+  .container .form .inputContainer input::placeholder {
+    color: #667085;
+  }
+  .container .form .ButtonCont{
+    display: inline-flex;
+    background-color: #76BAB2;
+  }
+  .container .form .forgotButton,
+  .container .form .submitButton{
+    display: block;
+    outline: none;
+    border: none;
+    padding: 10px 18px;
+    height: 44px;
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    cursor: pointer;
+    margin-inline: 10%;
+  }
+  .container .form .googleButton {
+    display: block;
+    outline: none;
+    border: none;
+    padding: 10px 18px;
+    height: 44px;
+    background: #CA5656;
+    border: 1px solid #CA5656;
+    color: white;;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+
+  .container .form .facebookButton {
+    display: block;
+    outline: none;
+    border: none;
+    padding: 10px 18px;
+    height: 44px;
+    background: #0D4C92;
+    border: 1px solid #0D4C92;
+    color: white;;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  
+  .container .form .loginRedirect {
+    background: #76BAB2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+  }
+  
+  .container .form .loginRedirect .redirectLink {
+    background: #76BAB2;
+    font-weight: 600;
+    color: #181b20;
+    text-decoration: underline;
+  }

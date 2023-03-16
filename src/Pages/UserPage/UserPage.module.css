@@ -1,0 +1,18 @@
+*{
+    background-color: #CFF5E7;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Menu{
+    background-color: #59C1BD;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    padding: 1.2% 1.2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
